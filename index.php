@@ -13,15 +13,15 @@ if(empty($_GET['page'])){
         case 'accueil': require_once "view/accueil.view.php";
         break;
 
-        case 'games': 
+        case 'vehicule': 
             if(empty($url[1])){
-                $gameController->displayGames();
+                $carController->displayCars();
             }elseif($url[1] == "add"){
-                $gameController->newGameForm();
+                $carController->newCarForm();
             }elseif($url[1] == "gvalid"){
-                $gameController->newGameValidation();
+                $carController->newCarValidation();
             }elseif($url[1] == "edit"){
-                $gameController->editGameForm($url[2]); 
+                $carController->editCarForm($url[2]); 
             }elseif($url[1] == "delete"){
                 echo "Supprimer un jeu";
             }
