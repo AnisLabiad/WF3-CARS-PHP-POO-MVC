@@ -18,17 +18,7 @@ class PilotController {
     public function newPilotForm(){
         require_once "view/new.driver.view.php";
     }
-
-    public function newPilotValidation(){
-      $this->pilotManager->newPilotDB($_POST['nom'],$_POST['prenom']);
-      header('Location:' . URL . "conducteur" );
-   
-    }
-
-    public function editPilotForm($id){
-            echo $id;
-    }
-
+        
 }
 
 

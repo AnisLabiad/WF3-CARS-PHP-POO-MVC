@@ -29,7 +29,13 @@ class CarController {
         $car = $this->carManager->getCarById($id);
         require_once "view/new.car.view.php";
     }
-
+    
+    public function deleteGame($id){
+        $this->gameManager->deleteGameBD($id);
+        header("Location: " . URL . "vehicule");
+    }
+        
+        
 }
 
 

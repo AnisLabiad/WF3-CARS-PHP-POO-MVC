@@ -2,7 +2,7 @@
 require_once "modele/PilotManager.php";
 $pilotManager = new PilotManager();
 $pilotManager->loadPilots();
-$upilot = $pilotManager->getPilots();
+$pilots = $pilotManager->getPilots();
 ob_start(); 
 ?>
 
