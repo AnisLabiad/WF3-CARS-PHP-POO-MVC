@@ -23,7 +23,7 @@ class CarManager extends Manager {
     }
 
     public function loadCars(){
-        $req = $this->getBdd()->prepare("SELECT * FROM vehicule");
+        $req = $this->getBdd()->prepare("SELECT * FROM `vehicule`");
         $req->execute();
         $myCars = $req->fetchAll(PDO::FETCH_ASSOC);
         $req->closeCursor();

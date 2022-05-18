@@ -23,13 +23,26 @@ if(empty($_GET['page'])){
             }elseif($url[1] == "edit"){
                 $carController->editCarForm($url[2]); 
             }elseif($url[1] == "delete"){
-                echo "Supprimer un jeu";
+                echo "Supprimer un vehicule";
             }
         break;
 
-        
         case 'conducteur': require_once "view/drivers.view.php";
         break;
+        case 'conducteur': 
+            if(empty($url[1])){
+                $pilotController->displayPilots();
+            }elseif($url[1] == "add"){
+                $pilotController->newPilotForm();
+            }elseif($url[1] == "gvalid"){
+                $pilotController->newPilotValidation();
+            }elseif($url[1] == "edit"){
+                $pilotController->editPilotForm($url[3]); 
+            }elseif($url[1] == "delete"){
+                echo "Supprimer un conducteur";
+            }
+
+        
     }
 }
 

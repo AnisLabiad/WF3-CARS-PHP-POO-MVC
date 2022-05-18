@@ -15,7 +15,7 @@ class CarController {
         require_once "view/car.view.php";
     }
 
-    public function newGameForm(){
+    public function newCarForm(){
         require_once "view/new.car.view.php";
     }
 
@@ -26,7 +26,8 @@ class CarController {
     }
 
     public function editCarForm($id){
-            echo $id;
+        $car = $this->carManager->getCarById($id);
+        require_once "view/new.car.view.php";
     }
 
 }

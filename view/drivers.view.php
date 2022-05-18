@@ -28,12 +28,12 @@ ob_start();
   </tbody>
 </table>
 
-<a class="btn btn-success w-25 d-block m-auto" href="">Ajouter un utilisateur</a>
+<a class="btn btn-success w-25 d-block m-auto" href="<?= URL ?>conducteur/add">Ajouter un conducteur</a>
 
 <?php
 
 $content =ob_get_clean();
-$title = "Nos Utilisateurs";
+$title = "Liste des conducteurs";
 require_once "base.html.php";
 
 ?>

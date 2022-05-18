@@ -24,7 +24,7 @@
                     <a class="nav-link" href="<?= URL ?>accueil">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= URL ?>conducteur">Pilotes</a>
+                    <a class="nav-link" href="<?= URL ?>conducteur">Conducteurs</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?= URL ?>vehicule">Voitures</a>

@@ -6,7 +6,7 @@
 <?php
 
 $content =ob_get_clean();
-$title = "Bienvenue chez Game-X";
+$title = "Bienvenue chez WF3 Cars";
 require_once "base.html.php";
 
 ?>
