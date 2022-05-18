@@ -1,7 +1,7 @@
 <?php ob_start(); ?>
 
 <table class="table  table-hover text-center shadow">
-  <thead class="bg-secondary text-white">
+  <thead class="bg-secondary">
     <tr>
       <th scope="col">Marque</th>
       <th scope="col">Modèle</th>

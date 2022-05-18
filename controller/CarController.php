@@ -6,7 +6,7 @@ class CarController {
 
 
     public function __construct(){
-        $this->carManager = new CarManager();
+        $this->carManager = new CarManager;
         $this->carManager->loadCars();        
     }
 
