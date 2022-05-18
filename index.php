@@ -28,7 +28,7 @@ if(empty($_GET['page'])){
         break;
 
         
-        case 'users': require_once "view/drivers.view.php";
+        case 'conducteur': require_once "view/drivers.view.php";
         break;
     }
 }
