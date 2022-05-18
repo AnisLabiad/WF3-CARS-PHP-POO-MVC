@@ -24,10 +24,10 @@
                     <a class="nav-link" href="<?= URL ?>accueil">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= URL ?>games">Pilotes</a>
+                    <a class="nav-link" href="<?= URL ?>conducteur">Pilotes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= URL ?>users">Voitures</a>
+                    <a class="nav-link" href="<?= URL ?>vehicule">Voitures</a>
                 </li>
             </ul>
         </div>
