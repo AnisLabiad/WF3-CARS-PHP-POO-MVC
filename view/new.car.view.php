@@ -1,6 +1,6 @@
 <?php  ob_start();?>
 
-<form method="POST" action="<?= URL ?>cars/gvalid">
+<form method="POST" action="<?= URL ?>vehicule/gvalid">
   <div class="form-group">
     <label for="title">Titre du jeu</label>
     <input type="text" name="title" class="form-control" id="title">

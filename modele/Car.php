@@ -20,19 +20,19 @@ class Car {
     }
 
     /**
-     * Get the value of id_vehicle
+     * Get the value of id_vehicule
      */ 
-    public function getIdVehicle()
+    public function getIdVehicule()
     {
         return $this->id_vehicule;
     }
 
     /**
-     * Set the value of id_vehicle
+     * Set the value of id_vehicule
      *
      * @return  self
      */ 
-    public function setIdVehicle($id_vehicule)
+    public function setIdVehicule($id_vehicule)
     {
         $this->id = $id_vehicule;
 

@@ -53,21 +53,21 @@ class User {
     }
 
     /**
-     * Get the value of id_vehicule
+     * Get the value of id_conducteur
      */ 
-    public function getIdVehicule()
+    public function getIdConducteur()
     {
-        return $this->id_vehicule;
+        return $this->id_conducteur;
     }
 
     /**
-     * Set the value of id_vehicule
+     * Set the value of id_conducteur
      *
      * @return  self
      */ 
-    public function setIdVehicule($id_vehicule)
+    public function setIdConducteur($id_conducteur)
     {
-        $this->id_vehicule = $id_vehicule;
+        $this->id_conducteur = $id_conducteur;
 
         return $this;
     }

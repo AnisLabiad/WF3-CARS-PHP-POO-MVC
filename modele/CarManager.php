@@ -14,9 +14,9 @@ class CarManager extends Manager {
         return $this->cars;
     }
 
-    public function getCarById($id_vehicle){
+    public function getCarById($id_vehicule){
         foreach($this->cars as $car) {
-            if ($id_vehicle == $car->getId()) {
+            if ($id_vehicule == $car->getId()) {
                 return $car;
             }
         }
